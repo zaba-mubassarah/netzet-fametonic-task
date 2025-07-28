@@ -16,7 +16,7 @@ export default function Header() {
             text-white
           "
         >
-          🚀 <span className="text-[#00E7F9] text-black px-1">FRESH BEGINNINGS SALE:</span> Extra 25% OFF
+          🚀 <span className="text-[#00E7F9] px-1">FRESH BEGINNINGS SALE:</span> Extra 25% OFF
           <br className="block md:hidden" />
           &nbsp;Limited Spots – start your journey today!
         </p>
