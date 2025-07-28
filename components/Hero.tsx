@@ -60,7 +60,7 @@ export default function Hero() {
                   <br className="block md:hidden" />
                   Conditions, Privacy Policy, Subscription Terms
                 </h6>
-                <h6 className="font-figtree font-medium text-[#ABABAB] text-[12px] leading-[100%] align-middle mb-4 mt-4 mb-10">
+                <h6 className="font-figtree font-medium text-[#ABABAB] text-[12px] leading-[100%] align-middle mt-6 mb-12 lg:mb-0">
                   Fametonic 2025 © All Rights Reserved.
                 </h6>
               </div>
@@ -68,11 +68,32 @@ export default function Hero() {
               {/* Button and quiz info */}
               <div className="order-2 md:order-1 flex flex-col items-center">
                 <button
-                  className="w-[313px] h-[40px] rounded-[10px] bg-[#FC004E] text-white text-[20px] font-bold leading-[100%] tracking-normal align-middle font-urbanist shadow-[0_0_8px_#00E7F9] flex items-center justify-center"
+                  className="
+                    mb-2
+                    w-[313px]
+                    h-[40px]
+                    rounded-[10px]
+                    bg-[#FC004E]
+                    shadow-[2px_2px_10px_0px_#00E7F9]
+                    opacity-100
+                    flex
+                    items-center
+                    justify-center
+                    gap-[10px]
+                    pt-2
+                    pr-[40px]
+                    pb-2
+                    pl-[40px]
+                    font-figtree
+                    font-bold
+                    text-[20px]
+                    leading-[100%]
+                    tracking-normal
+                    align-middle
+                  "
                 >
-                  Get Started <span className='ml-3'><Vector></Vector></span>
+                  Get Started <div className='ml-2'><Vector></Vector></div>
                 </button>
-
                 <h6 className="text-[12px] text-white text-center md:text-left leading-none lg:ml-10 mt-2">
                   1-minute quiz for personalized Insights
                 </h6>
