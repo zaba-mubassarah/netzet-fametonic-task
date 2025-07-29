@@ -20,3 +20,4 @@ A responsive landing page built with **Next.js**, **TypeScript**, and **Tailwind
 git clone https://github.com/zaba-mubassarah/netzet-fametonic-task.git
 cd netzet-fametonic-task
 npm install
+npm run dev
